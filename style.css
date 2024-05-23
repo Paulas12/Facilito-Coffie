@@ -1,8 +1,9 @@
 body{
-    font-family: Arial, Helvetica, sans-serif ;
+    margin: 0cm;
 }
 
-h1{
-    font-style: italic ;
-    color: #373fff;
+.cover{
+    height: 400px; /*es la medida de la caja donde irá la portada */
+    background-color: aquamarine;
+    color: white;
 }
