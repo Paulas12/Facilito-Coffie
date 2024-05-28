@@ -4,6 +4,11 @@ body{
 
 .cover{
     height: 400px; /*es la medida de la caja donde irá la portada */
-    background-color: aquamarine;
-    color: white;
+    /*background-color: aquamarine; es para el fondo de la portada en el caso de no ponerle imagen*/
+    background-image: url(Portada.jpg); /*Propiedad para fondos*/
+    color: white; 
+    background-size: cover;
+    background-image: center;
+    background-color: rgba(0, 0, 0, 0, 5);
+    background-blend-mode: darken ;
 }
